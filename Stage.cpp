@@ -119,7 +119,7 @@ Stage::Stage()
 			}
 			else
 			{
-				if (x % 2 == 0 && y % 2 == 0)  // "’Œ" ‚Ì”z’u
+				if (x % 2 == 0 && y % 2 == 0)
 					stageData[y][x].obj = STAGE_OBJ::WALL;
 				else
 					stageData[y][x].obj = STAGE_OBJ::EMPTY;
